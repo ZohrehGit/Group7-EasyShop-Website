@@ -47,5 +47,5 @@ jobs: # The jobs that run in this workflow
     - uses: actions/first-interaction@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        pr-message: 'Message that will be displayed on users first pr'
+        pr-message: 'Congratulations on your first pull request! Thank you for your contribution.'
           
